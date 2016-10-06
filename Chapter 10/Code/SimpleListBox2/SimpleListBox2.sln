@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleListBox2", "SimpleListBox2\SimpleListBox2.csproj", "{2AD69307-0135-4762-9095-4DA3914D8574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AD69307-0135-4762-9095-4DA3914D8574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD69307-0135-4762-9095-4DA3914D8574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD69307-0135-4762-9095-4DA3914D8574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD69307-0135-4762-9095-4DA3914D8574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

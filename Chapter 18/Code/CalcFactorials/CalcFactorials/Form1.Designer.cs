@@ -1,0 +1,94 @@
+namespace CalcFactorials
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.startingNumber = new System.Windows.Forms.TextBox();
+            this.calcButton = new System.Windows.Forms.Button();
+            this.resultsBox = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Starting number";
+            // 
+            // startingNumber
+            // 
+            this.startingNumber.Location = new System.Drawing.Point(93, 12);
+            this.startingNumber.Name = "startingNumber";
+            this.startingNumber.Size = new System.Drawing.Size(100, 20);
+            this.startingNumber.TabIndex = 1;
+            // 
+            // calcButton
+            // 
+            this.calcButton.Location = new System.Drawing.Point(199, 10);
+            this.calcButton.Name = "calcButton";
+            this.calcButton.Size = new System.Drawing.Size(75, 23);
+            this.calcButton.TabIndex = 2;
+            this.calcButton.Text = "Calculate";
+            this.calcButton.Click += new System.EventHandler(this.calcButton_Click);
+            // 
+            // resultsBox
+            // 
+            this.resultsBox.FormattingEnabled = true;
+            this.resultsBox.Location = new System.Drawing.Point(13, 38);
+            this.resultsBox.Name = "resultsBox";
+            this.resultsBox.Size = new System.Drawing.Size(261, 212);
+            this.resultsBox.TabIndex = 3;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(292, 266);
+            this.Controls.Add(this.resultsBox);
+            this.Controls.Add(this.calcButton);
+            this.Controls.Add(this.startingNumber);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox startingNumber;
+        private System.Windows.Forms.Button calcButton;
+        private System.Windows.Forms.ListBox resultsBox;
+    }
+}
+
